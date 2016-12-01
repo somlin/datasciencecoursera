@@ -57,133 +57,133 @@ range: -0.69..1
 >Mean of the gravity acceleration signal of the body in Z- direction  
 range: -0.5..1
 
-**_tGravityAcc-std()-X_		7
+**_tGravityAcc-std()-X_	| 7
 	Standard deviation of the gravity acceleration signal of the body in X- direction
 	range: -0.9967642..-0.8295549
 
-tGravityAcc-std()-Y		7
-	Standard deviation of the gravity acceleration signal of the body in Y- direction
-	range: -0.9942476..-0.6435784
+**_tGravityAcc-std()-Y_     |  7**
+>Standard deviation of the gravity acceleration signal of the body in Y- direction  
+range: -0.9942476..-0.6435784
 
-tGravityAcc-std()-Z		7
-	Standard deviation of the gravity acceleration signal of the body in Z- direction
-	range: -0.9909572..--0.6101612
+**_tGravityAcc-std()-Z_	 | 7**
+>Standard deviation of the gravity acceleration signal of the body in Z- direction  
+range: -0.9909572..--0.6101612
 
-tBodyAccJerk-mean()-X		7
-	Mean of the Jerk signal of the body in X- direction
-	range: 0.0426881..0.1301930
+**_tBodyAccJerk-mean()-X_ | 7**
+>Mean of the Jerk signal of the body in X- direction  
+range: 0.0426881..0.1301930
 
-tBodyAccJerk-mean()-Y		8
-	Mean of the Jerk signal of the body in Y- direction
-	range: -0.03868721..0.05681859
+**_tBodyAccJerk-mean()-Y_	|	8**
+>Mean of the Jerk signal of the body in Y- direction  
+range: -0.03868721..0.05681859
 
-tBodyAccJerk-mean()-Z		8
-	Mean of the Jerk signal of the body in Z- direction
-	range: -0.06745839..0.03805336
+**_tBodyAccJerk-mean()-Z_     | 8**
+>Mean of the Jerk signal of the body in Z- direction  
+range: -0.06745839..0.03805336
 
-tBodyAccJerk-std()-X		7
-	Standard deviation of Jerk signal of the body in X- direction
-	range: -0.9946045..0.5442730
+**_tBodyAccJerk-std()-X_  |  7**
+>Standard deviation of Jerk signal of the body in X- direction  
+range: -0.9946045..0.5442730
 
-tBodyAccJerk-std()-Y		7
-	Standard deviation of Jerk signal of the body in Y- direction
-	range: -0.9895136..0.3553067
+**_tBodyAccJerk-std()-Y_  |  7**
+>Standard deviation of Jerk signal of the body in Y- direction  
+range: -0.9895136..0.3553067
 
-tBodyAccJerk-std()-Z		8
-	Standard deviation of Jerk signal of the body in Z- direction
-	range: -0.99328831..0.03101571
+**_tBodyAccJerk-std()-Z_  |  8**
+>Standard deviation of Jerk signal of the body in Z- direction  
+range: -0.99328831..0.03101571
 
-tBodyGyro-mean()-X		7
-	Mean of the signal of the body from gyroscope in X- direction
-	range: -0.2057754..0.1927045
+**_tBodyGyro-mean()-X_	| 7**
+>Mean of the signal of the body from gyroscope in X- direction  
+range: -0.2057754..0.1927045
 
-tBodyGyro-mean()-Y		8
-	Mean of the signal of the body from gyroscope in Y- direction
-	range: -0.20420536..0.02747076
+**_tBodyGyro-mean()-Y_	| 8**
+>Mean of the signal of the body from gyroscope in Y- direction  
+range: -0.20420536..0.02747076
 
-tBodyGyro-mean()-Z		7
-	Mean of the signal of the body from gyroscope in Z- direction
-	range: -0.0724546..0.1791021
+**_tBodyGyro-mean()-Z_		| 7**
+>Mean of the signal of the body from gyroscope in Z- direction  
+range: -0.0724546..0.1791021
 
-tBodyGyro-std()-X		7	
-	Standard deviation of the signal of the body from gyroscope in X- direction
-	range: -0.9942766  0.2676572
+**_tBodyGyro-std()-X_	| 7**	
+>Standard deviation of the signal of the body from gyroscope in X- direction  
+range: -0.9942766  0.2676572
 
-tBodyGyro-std()-Y		7
-	Standard deviation of the signal of the body from gyroscope in Y- direction
-	range: -0.9942105..0.4765187
+**_tBodyGyro-std()-Y_	| 7**
+>Standard deviation of the signal of the body from gyroscope in Y- direction 
+range: -0.9942105..0.4765187
 
-tBodyGyro-std()-Z		7
-	Standard deviation of the signal of the body from gyroscope in Z- direction
-	range: -0.9855384..0.5648758
+**_tBodyGyro-std()-Z_	| 7**
+>Standard deviation of the signal of the body from gyroscope in Z- direction  
+range: -0.9855384..0.5648758
 	
-tBodyGyroJerk-mean()-X		8
-	Mean of Jerk signal of the body from gyroscope in X- direction
-	range: -0.15721254..-0.02209163
+**_tBodyGyroJerk-mean()-X_	| 8**
+>Mean of Jerk signal of the body from gyroscope in X- direction  
+range: -0.15721254..-0.02209163
 
-tBodyGyroJerk-mean()-Y		8
-	Mean of Jerk signal of the body from gyroscope in Y- direction
-	range: -0.07680899..-0.01320228
+**_tBodyGyroJerk-mean()-Y_	|	8**
+>Mean of Jerk signal of the body from gyroscope in Y- direction  
+range: -0.07680899..-0.01320228
 
-tBodyGyroJerk-mean()-Z		9
-	Mean of Jerk signal of the body from gyroscope in Z- direction
-	range:  -0.092499853..-0.006940664
+**_tBodyGyroJerk-mean()-Z_	| 9**
+>Mean of Jerk signal of the body from gyroscope in Z- direction  
+range:  -0.092499853..-0.006940664
 
-tBodyGyroJerk-std()-X			7
-	Standard deviation of Jerk signal of the body from gyroscope in X- direction
-	range:  -0.9965425  0.1791486
+**_tBodyGyroJerk-std()-X_	|	7**
+>Standard deviation of Jerk signal of the body from gyroscope in X- direction  
+range:  -0.9965425  0.1791486
 
-tBodyGyroJerk-std()-Y			7
-	Standard deviation of Jerk signal of the body from gyroscope in Y- direction
-	range: -0.9970816 .. 0.2959459
+**_tBodyGyroJerk-std()-Y_	|	7**
+>Standard deviation of Jerk signal of the body from gyroscope in Y- direction  
+range: -0.9970816 .. 0.2959459
 
-tBodyGyroJerk-std()-Z			7
-	Standard deviation of Jerk signal of the body from gyroscope in Z- direction
-	range: -0.9953808 .. 0.1932065
+**_tBodyGyroJerk-std()-Z_ |	7**
+>Standard deviation of Jerk signal of the body from gyroscope in Z- direction  
+range: -0.9953808 .. 0.1932065
 
-tBodyAccMag-mean()			7
-	Mean Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm 
-	range: -0.9864932 .. 0.6446043
+**_tBodyAccMag-mean()_ |	7**
+>Mean Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm   
+range: -0.9864932 .. 0.6446043
 
-tBodyAccMag-std()			7
-	Standard deviation of Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm 
-	range: -0.9864645 .. 0.4284059
+**_tBodyAccMag-std()_	| 7**
+>Standard deviation of Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm  
+range: -0.9864645 .. 0.4284059
 
-tGravityAccMag-mean()			7
-	Mean Magnitude of these three-dimensional signals of gravity acceleration calculated using the Euclidean norm 
-	range: -0.9864932 .. 0.6446043
+**_tGravityAccMag-mean()_ |		7**
+>Mean Magnitude of these three-dimensional signals of gravity acceleration calculated using the Euclidean norm  
+range: -0.9864932 .. 0.6446043
 
-tGravityAccMag-std()			7
-	Standard deviation of Magnitude of these three-dimensional signals of gravity acceleration calculated using the Euclidean norm 
-	range: -0.9864645  0.4284059
+**_tGravityAccMag-std()_ |	7**
+>Standard deviation of Magnitude of these three-dimensional signals of gravity acceleration calculated using the Euclidean norm  
+range: -0.9864645  0.4284059
 
-tBodyAccJerkMag-mean()		7
-	Mean Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm 
-	range: -0.9928147 .. 0.4344904
+**_tBodyAccJerkMag-mean()_ |	7**
+>Mean Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm  
+range: -0.9928147 .. 0.4344904
 
-tBodyAccJerkMag-std()			7
-	Standar deviation of Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm 
-	range: -0.9946469 .. 0.4506121
+**_tBodyAccJerkMag-std()_ |		7**
+>Standar deviation of Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm  
+range: -0.9946469 .. 0.4506121
 
-tBodyGyroMag-mean()			7
-	Mean Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm 
-	range: -0.9807408 .. 0.4180046
+**_tBodyGyroMag-mean()_	|	7**
+>Mean Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm  
+range: -0.9807408 .. 0.4180046
 
-tBodyGyroMag-std()
-	Standard deviation of Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm 
-	range: -0.9813727 .. 0.2999760
+**_tBodyGyroMag-std()_ |   7**
+>Standard deviation of Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm   
+range: -0.9813727 .. 0.2999760
 
-tBodyGyroJerkMag-mean()		8
-	Mean Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm 
-	range: -0.99732253 .. 0.08758166
+**_tBodyGyroJerkMag-mean()_	|	8**
+>Mean Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm   
+range: -0.99732253 .. 0.08758166
 
-tBodyGyroJerkMag-std()		7
-	Standard deviation of Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm 
-	range: -0.9976661 .. 0.2501732
+**_tBodyGyroJerkMag-std()_	|	7**
+>Standard deviation of Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm  
+range: -0.9976661 .. 0.2501732
 
------------------------------------------------------------------------------------------------------------------
-Note: Fast Fourier Transform (FFT) was applied to signal and the below variables(starting with f) were claculated
-------------------------------------------------------------------------------------------------------------------
+---
+>Fast Fourier Transform (FFT) was applied to signal and the below variables(starting with f) were claculated
+---
 
 fBodyAcc-mean()-X			7
 	'f' to indicate frequency domain signals
