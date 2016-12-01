@@ -66,3 +66,22 @@
  > test.data <- cbind(activities,X_test)  
  > test.data <- cbind(subject,test.data)  
  
+**_Generate the final data set by combining traing and test data set_**  
+
+ > final.data <- rbind(training.data,test.data)
+ > colnames(final.data) <- c("subject_id","activity_id",features)
+
+**_Add the activities labels to the data set_**  
+> activities.labels <- read.table("UCI HAR Dataset\\activity_labels.txt",header=FALSE,
+                                sep=" ",strip.white = TRUE,stringsAsFactors=FALSE,
+                                na.strings = "EMPTY")  
+> colnames(activities.labels) <- c("activity_id", "activity")  
+
+> final.data <- merge(activities.labels,final.data,by="activity_id")  
+
+**_Generate the Average(result) data set_**  
+> Avg.data <- final.data %>% group_by(subject_id,activity) %>% 
+  summarize_each(funs(mean))   
+
+**_Write data to file_**  
+> write.table(Avg.data, "Avg_data.txt", sep="\t",row.names = FALSE)  
