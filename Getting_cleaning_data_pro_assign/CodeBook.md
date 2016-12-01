@@ -14,49 +14,50 @@
  6. LAYING
 
 **_activity_id_ |   1**    
->Id of the activity 
+>Id of the activity   
 range: 1..6
 
-
+---
 >'t' in the below variables denote time
+---
 
 **_tBodyAcc-mean()-X_  |    6**      
->Mean of the acceleration signal of the body in X- direction
+>Mean of the acceleration signal of the body in X- direction  
 range: 0.2..0.31 
 
 **_tBodyAcc-mean()-Y_   |  7**          
->Mean of the acceleration signal of the body in Y- direction
+>Mean of the acceleration signal of the body in Y- direction  
 range: -0.041..-0.001
 
 **_tBodyAcc-mean()-Z_   |  7**
->Mean of the acceleration signal of the body in Z- direction
+>Mean of the acceleration signal of the body in Z- direction  
 range: -0.16..-0.075
 
 **_tBodyAcc-std()-X_    |    7**
->Standard deviation of the acceleration signal of the body in X- direction
+>Standard deviation of the acceleration signal of the body in X- direction  
 range: -1..0.63
 
 **_tBodyAcc-std()-Y_    |     7**
->Standard deviation of the acceleration signal of the body in Y- direction
+>Standard deviation of the acceleration signal of the body in Y- direction  
 range: -1..0.62
 
-tBodyAcc-std()-Z         7          
-	Standard deviation of the acceleration signal of the body in X- direction
-	range: -.99..0.61
+**_tBodyAcc-std()-Z_   |      7**
+>Standard deviation of the acceleration signal of the body in X- direction  
+range: -.99..0.61
 
-tGravityAcc-mean()-X         7          
-	Mean of the gravity acceleration signal of the body in X- direction
-	range: -0.69..1
+**_tGravityAcc-mean()-X_   |  7**         
+>Mean of the gravity acceleration signal of the body in X- direction  
+range: -0.69..1
 
-tGravityAcc-mean()-Y         7          
-	Mean of the gravity acceleration signal of the body in Y- direction
-	range: -0.69..1
+**_tGravityAcc-mean()-Y_   |  7**
+>Mean of the gravity acceleration signal of the body in Y- direction  
+range: -0.69..1
 
-tGravityAcc-mean()-Z         7          
-	Mean of the gravity acceleration signal of the body in Z- direction
-	range: -0.5..1
+**_tGravityAcc-mean()-Z_    |    7**
+>Mean of the gravity acceleration signal of the body in Z- direction  
+range: -0.5..1
 
-tGravityAcc-std()-X		7
+**_tGravityAcc-std()-X_		7
 	Standard deviation of the gravity acceleration signal of the body in X- direction
 	range: -0.9967642..-0.8295549
 
