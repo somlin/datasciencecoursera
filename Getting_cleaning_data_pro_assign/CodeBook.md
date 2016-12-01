@@ -183,161 +183,161 @@ range: -0.9976661 .. 0.2501732
 
 ---
 >Fast Fourier Transform (FFT) was applied to signal and the below variables(starting with f) were claculated
+>'f' to indicate frequency domain signals
 ---
 
-fBodyAcc-mean()-X			7
-	'f' to indicate frequency domain signals
-	Mean of the acceleration signal of the body in X- direction
-	range: -0.9952499 .. 0.5370120
+**_fBodyAcc-mean()-X_	|	7**
+>Mean of the acceleration signal of the body in X- direction  
+range: -0.9952499 .. 0.5370120
 
-fBodyAcc-mean()-Y			7
-	Mean of the acceleration signal of the body in Y- direction
-	range: -0.9890343 .. 0.5241877
+**_fBodyAcc-mean()-Y_	|	7**
+>Mean of the acceleration signal of the body in Y- direction  
+range: -0.9890343 .. 0.5241877
 
-fBodyAcc-mean()-Z			7
-	Mean of the acceleration signal of the body in Z- direction
-	range: -0.9894739 .. 0.2807360
+**_fBodyAcc-mean()-Z_	|	7**
+>Mean of the acceleration signal of the body in Z- direction  
+range: -0.9894739 .. 0.2807360
 
-fBodyAcc-std()-X			7
-	Standard deviation of the acceleration signal of the body in X- direction
-	range:  -0.9966046 .. 0.6585065
+**_fBodyAcc-std()-X_	|	7**
+>Standard deviation of the acceleration signal of the body in X- direction  
+range:  -0.9966046 .. 0.6585065
 
-fBodyAcc-std()-Y			7
-	Standard deviation of the acceleration signal of the body in Y- direction
-	range:  -0.9906804 .. 0.5601913
+**_fBodyAcc-std()-Y_	|	7**
+>Standard deviation of the acceleration signal of the body in Y- direction  
+range:  -0.9906804 .. 0.5601913
 
-fBodyAcc-std()-Z			7
-	Standard deviation of the acceleration signal of the body in Z- direction
-	range:  -0.9872248 .. 0.6871242
+**_fBodyAcc-std()-Z_	|	7**
+>Standard deviation of the acceleration signal of the body in Z- direction  
+range:  -0.9872248 .. 0.6871242
 
-fBodyAcc-meanFreq()-X			7
-	Weighted average of the frequency components to obtain a mean frequency in X-direction
-	range: -0.6359130 .. 0.1591236
+**_fBodyAcc-meanFreq()-X_	| 7**
+>Weighted average of the frequency components to obtain a mean frequency in X-direction  
+range: -0.6359130 .. 0.1591236
 
-fBodyAcc-meanFreq()-Y			7
-	Weighted average of the frequency components to obtain a mean frequency in Y-direction
-	range: -0.3795185 .. 0.4665282
+**_fBodyAcc-meanFreq()-Y_	|	7**
+>Weighted average of the frequency components to obtain a mean frequency in Y-direction  
+range: -0.3795185 .. 0.4665282
 
-fBodyAcc-meanFreq()-Z			7
-	Weighted average of the frequency components to obtain a mean frequency in Z-direction
-	range:  -0.5201148 .. 0.4025326
+**_fBodyAcc-meanFreq()-Z_	|	7**
+>Weighted average of the frequency components to obtain a mean frequency in Z-direction  
+range:  -0.5201148 .. 0.4025326
 
-fBodyAccJerk-mean()-X			7
-	Mean of the acceleration Jerk signal of the body in X- direction
-	range: -0.9946308 .. 0.4743173
+**_fBodyAccJerk-mean()-X_ |	7**
+>Mean of the acceleration Jerk signal of the body in X- direction  
+range: -0.9946308 .. 0.4743173
 
-fBodyAccJerk-mean()-Y 		7
-	Mean of the acceleration Jerk signal of the body in Y- direction
-	range: -0.9893988 .. 0.2767169
+**_fBodyAccJerk-mean()-Y_	|	7**
+>Mean of the acceleration Jerk signal of the body in Y- direction  
+range: -0.9893988 .. 0.2767169
 
-fBodyAccJerk-mean()-Z			7
-	Mean of the acceleration Jerk signal of the body in Z- direction
-	range: -0.9920184 .. 0.1577757
+**_fBodyAccJerk-mean()-Z_ | 7**
+>Mean of the acceleration Jerk signal of the body in Z- direction  
+range: -0.9920184 .. 0.1577757
 
-fBodyAccJerk-std()-X			7
-	Standard deviation of the acceleration Jerk signal of the body in X- direction
-	range: -0.9950738  0.4768039
+**_fBodyAccJerk-std()-X_	|	7**
+>Standard deviation of the acceleration Jerk signal of the body in X- direction  
+range: -0.9950738  0.4768039
 
-fBodyAccJerk-std()-Y			7
-	Standard deviation of the acceleration Jerk signal of the body in Y- direction
-	range: -0.9904681  0.3497713
+**_fBodyAccJerk-std()-Y_	|		7**
+>Standard deviation of the acceleration Jerk signal of the body in Y- direction  
+range: -0.9904681  0.3497713
 
-fBodyAccJerk-std()-Z			7
-	Standard deviation of the acceleration Jerk signal of the body in Z- direction
-	range: -0.993107760 -0.006236475
+**_fBodyAccJerk-std()-Z_	| 7**
+>Standard deviation of the acceleration Jerk signal of the body in Z- direction  
+range: -0.993107760 -0.006236475
 
-fBodyAccJerk-meanFreq()-X		7
-	Weighted average of the frequency components to obtain a mean frequency in X-direction
-	range: -0.5760440 .. 0.3314493
+**_fBodyAccJerk-meanFreq()-X_	|	7**
+>Weighted average of the frequency components to obtain a mean frequency in X-direction  
+range: -0.5760440 .. 0.3314493
 
-fBodyAccJerk-meanFreq()-Y		7
-	Weighted average of the frequency components to obtain a mean frequency in Y-direction
-	range: -0.6019714 .. 0.1956773
+**_fBodyAccJerk-meanFreq()-Y_	|	7**
+>Weighted average of the frequency components to obtain a mean frequency in Y-direction  
+range: -0.6019714 .. 0.1956773
 
-fBodyAccJerk-meanFreq()-Z		7
-	Weighted average of the frequency components to obtain a mean frequency in Z-direction
-	range:  -0.6275555 .. 0.2301079
+**_fBodyAccJerk-meanFreq()-Z_	|	7**
+>Weighted average of the frequency components to obtain a mean frequency in Z-direction  
+range:  -0.6275555 .. 0.2301079
 
-fBodyGyro-mean()-X			7
-	Mean of the signal of the body from gyroscope in X- direction
-	range: -0.9931226 .. 0.4749624
+**_fBodyGyro-mean()-X_ | 7**
+>Mean of the signal of the body from gyroscope in X- direction  
+range: -0.9931226 .. 0.4749624
 
-fBodyGyro-mean()-Y			7
-	Mean of the signal of the body from gyroscope in Y- direction
-	range: -0.9940255 .. 0.3288170
+**_fBodyGyro-mean()-Y_	|	7**
+>Mean of the signal of the body from gyroscope in Y- direction
+range: -0.9940255 .. 0.3288170
 
-fBodyGyro-mean()-Z			7
-	Mean of the signal of the body from gyroscope in Z- direction
-	range: -0.9859578 .. 0.4924144
+**_fBodyGyro-mean()-Z_		| 7**
+>Mean of the signal of the body from gyroscope in Z- direction  
+range: -0.9859578 .. 0.4924144
 
-fBodyGyro-std()-X			7
-	Standad deviation of the signal of the body from gyroscope in X- direction
-	range: -0.9946522 .. 0.1966133
+**_fBodyGyro-std()-X_	|		7**
+>Standad deviation of the signal of the body from gyroscope in X- direction  
+range: -0.9946522 .. 0.1966133
 
-fBodyGyro-std()-Y			7
-	Standad deviation of the signal of the body from gyroscope in Y- direction
-	range: -0.9943531 .. 0.6462336
+**_fBodyGyro-std()-Y_	|		7**
+>Standad deviation of the signal of the body from gyroscope in Y- direction  
+range: -0.9943531 .. 0.6462336
 
-fBodyGyro-std()-Z			7
-	Standad deviation of the signal of the body from gyroscope in Z- direction
-	range: -0.9867253 .. 0.5224542
+**_fBodyGyro-std()-Z_	| 7**
+>Standad deviation of the signal of the body from gyroscope in Z- direction  
+range: -0.9867253 .. 0.5224542
 
-fBodyGyro-meanFreq()-X		7
-	Weighted average of the frequency components to obtain a mean frequency in X-direction
-	range: -0.3957702 .. 0.2492094
+**_fBodyGyro-meanFreq()-X_	| 7**
+>Weighted average of the frequency components to obtain a mean frequency in X-direction  
+range: -0.3957702 .. 0.2492094
 
-fBodyGyro-meanFreq()-Y		7
-	Weighted average of the frequency components to obtain a mean frequency in Y-direction
-	range: -0.6668148  0.2731413
+**_fBodyGyro-meanFreq()-Y_	|	7**
+>Weighted average of the frequency components to obtain a mean frequency in Y-direction  
+range: -0.6668148  0.2731413
 
-fBodyGyro-meanFreq()-Z		7
-	Weighted average of the frequency components to obtain a mean frequency in Z-direction
-	range: -0.5074909 .. 0.3770741
+**_fBodyGyro-meanFreq()-Z_ |		7**
+>Weighted average of the frequency components to obtain a mean frequency in Z-direction  
+range: -0.5074909 .. 0.3770741
 
-fBodyAccMag-mean()			7
-	Mean Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm 
-	range: -0.9868006 .. 0.5866376
+**_fBodyAccMag-mean()_	|	7**
+>Mean Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm   
+range: -0.9868006 .. 0.5866376
 
-fBodyAccMag-std()			7
-	Standard deviation Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm 
-	range: -0.. 0.1786846
+**_fBodyAccMag-std()_	|	7**
+>Standard deviation Magnitude of these three-dimensional signals of body acceleration calculated using the Euclidean norm   
+range: -0.. 0.1786846
 
-fBodyAccMag-meanFreq()		7
-	Weighted average of the frequency components of Magnitude calculation using the Euclidean norm
-	range: -0.3123380 .. 0.4358469
+**_fBodyAccMag-meanFreq()_	|	7**
+>Weighted average of the frequency components of Magnitude calculation using the Euclidean norm  
+range: -0.3123380 .. 0.4358469
 
-fBodyBodyAccJerkMag-mean()		7
-	Mean Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm 
-	range: -0.9939983 .. 0.5384048
+**_fBodyBodyAccJerkMag-mean()_	| 7**
+>Mean Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm   
+range: -0.9939983 .. 0.5384048
 
-fBodyBodyAccJerkMag-std()		7
-	Standard deviation Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm 
-	range: -0.9943667 .. 0.3163464
+**_fBodyBodyAccJerkMag-std()_	|	7**
+>Standard deviation Magnitude of these three-dimensional Jerk signals of body acceleration calculated using the Euclidean norm   
+range: -0.9943667 .. 0.3163464
 
-fBodyBodyAccJerkMag-meanFreq()		7
-	Weighted average of the frequency components of Magnitude calculation using the Euclidean norm
-	range: -0.1252104 .. 0.4880885
+**_fBodyBodyAccJerkMag-meanFreq()_	|	7**
+>Weighted average of the frequency components of Magnitude calculation using the Euclidean norm  
+range: -0.1252104 .. 0.4880885
 
-fBodyBodyGyroMag-mean()		7
-	Mean Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm 
-	range: -0.9865352 .. 0.2039798
+**_fBodyBodyGyroMag-mean()_	| 7**
+>Mean Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm   
+range: -0.9865352 .. 0.2039798
 
-fBodyBodyGyroMag-std()		7
-	Standard deviation of Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm 
-	range: -0.9814688 .. 0.2366597
+**_fBodyBodyGyroMag-std()_	|	7**
+>Standard deviation of Magnitude of these three-dimensional signals from gyroscope calculated using the Euclidean norm  
+range: -0.9814688 .. 0.2366597
 
-fBodyBodyGyroMag-meanFreq()	7
-	Weighted average of the frequency components of Magnitude calculation using the Euclidean norm of three-dimensional signals from gyroscope
-	range: -0.4566387 .. 0.4095216
+**_fBodyBodyGyroMag-meanFreq()	| 7**
+> Weighted average of the frequency components of Magnitude calculation using the Euclidean norm of three-dimensional signals from gyroscope  
+range: -0.4566387 .. 0.4095216
 
-fBodyBodyGyroJerkMag-mean()		7
-	Mean Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm 
-	range: -0.9976174 .. 0.1466186
+**_fBodyBodyGyroJerkMag-mean()_	|7**
+>Mean Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm   
+range: -0.9976174 .. 0.1466186
 
-fBodyBodyGyroJerkMag-std()		7
-	Standard deviation of Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm 
-	range: -0.9975852 .. 0.2878346
+**_fBodyBodyGyroJerkMag-std()_	|	7**
+>Standard deviation of Magnitude of these three-dimensional Jerk signals from gyroscope calculated using the Euclidean norm  
+range: -0.9975852 .. 0.2878346
 
-fBodyBodyGyroJerkMag-meanFreq()		7
-	Weighted average of the frequency components of Magnitude calculation using the Euclidean norm of three-dimensional jerk signals from gyroscope
-	range: -0.1829236 .. 0.4263017
+**_fBodyBodyGyroJerkMag-meanFreq()_	|	7**
+>Weighted average of the frequency components of Magnitude calculation using the Euclidean norm of three-dimensional jerk signals from gyroscope  
+range: -0.1829236 .. 0.4263017
