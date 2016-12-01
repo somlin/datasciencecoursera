@@ -1,10 +1,10 @@
- #### DATA DICTIONARY - *Human Activity Recognition Using Smartphones Dataset*
+ DATA DICTIONARY - *Human Activity Recognition Using Smartphones Dataset*
  
  **_subject_id_ | Size(no of characters)=2**  
  >Id of the subjects participated in the excersise  
  range: 1..30
  
-**_activity_     |    18   **       
+**_activity_ |    18**       
 >Activities the person/subject performed wearing a smartphone (Samsung Galaxy S II) on the waist
  1. WALKING
  2. WALKING_UPSTAIRS
@@ -13,32 +13,32 @@
  5. STANDING
  6. LAYING
 
-**_activity_id_    |     1 **    
+**_activity_id_ |   1**    
 >Id of the activity 
 range: 1..6
 
 
 >'t' in the below variables denote time
 
-**_tBodyAcc-mean()-X_     |    6    **      
+**_tBodyAcc-mean()-X_  |    6**      
 >Mean of the acceleration signal of the body in X- direction
 range: 0.2..0.31 
 
-tBodyAcc-mean()-Y         7          
-	Mean of the acceleration signal of the body in Y- direction
-	range: -0.041..-0.001
+**_tBodyAcc-mean()-Y_   |  7**          
+>Mean of the acceleration signal of the body in Y- direction
+range: -0.041..-0.001
 
-tBodyAcc-mean()-Z         7          
-	Mean of the acceleration signal of the body in Z- direction
-	range: -0.16..-0.075
+**_tBodyAcc-mean()-Z_   |  7**
+>Mean of the acceleration signal of the body in Z- direction
+range: -0.16..-0.075
 
-tBodyAcc-std()-X         7          
-	Standard deviation of the acceleration signal of the body in X- direction
-	range: -1..0.63
+**_tBodyAcc-std()-X_    |    7**
+>Standard deviation of the acceleration signal of the body in X- direction
+range: -1..0.63
 
-tBodyAcc-std()-Y         7          
-	Standard deviation of the acceleration signal of the body in Y- direction
-	range: -1..0.62
+**_tBodyAcc-std()-Y_    |     7**
+>Standard deviation of the acceleration signal of the body in Y- direction
+range: -1..0.62
 
 tBodyAcc-std()-Z         7          
 	Standard deviation of the acceleration signal of the body in X- direction
