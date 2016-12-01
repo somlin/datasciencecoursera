@@ -1,11 +1,17 @@
- DATA DICTIONARY - Human Activity Recognition Using Smartphones Dataset
- ----------------------------------------------------------------------
+ #### DATA DICTIONARY - *Human Activity Recognition Using Smartphones Dataset*
  
-subject_id         2          
-	Id of the subjects participated in the excersise
-	range: 1..30
+ **_subject_id_ | Size(no of characters)=2**  
+ >Id of the subjects participated in the excersise  
+ range: 1..30
  
-activity         18          
+
+
+**_subject_id_**  
+ Size(no of characters)=2  
+ Id of the subjects participated in the excersise  
+ range: 1..30
+ 
+**_activity_**         18          
 	Activities the person/subject performed wearing a smartphone (Samsung Galaxy S II) on the waist
 	1 WALKING
 	2 WALKING_UPSTAIRS
