@@ -17,7 +17,7 @@
 ---
 >The script **_run_analysis.R_** :
 
-**_Reads all the fetaure names from features.txt. Then filters out all the measuremnets for mean and standard deviation_**   
+**_Reads all the fetaure names from features.txt. Then get the index of all thevariables which are measurements for mean and standard deviation.Then with index filter out the required feature names._**   
 >Code for this part:  
  >features <- read.table("UCI HAR Dataset\\features.txt",header=FALSE,sep=" ",
                        strip.white = TRUE,stringsAsFactors=FALSE,na.strings = "EMPTY")  
@@ -26,12 +26,14 @@
  >features<- features[index,2]  
  
 **_Creating the Training data set_**  
->Code for this part:  
+ 
  # Read the X_training data    
+ 
  > X_train <- read.table("UCI HAR Dataset\\train\\X_train.txt",header=FALSE,
                       strip.white = TRUE,stringsAsFactors=FALSE,na.strings = "EMPTY")  
  > X_train <- X_train[1:7352,index]  
- # Read the activity data from Y_train
+ 
+ # Read the activity data from Y_train  
  > Y_train <- read.table("UCI HAR Dataset\\train\\Y_train.txt",header=FALSE,
                       strip.white = TRUE,stringsAsFactors=FALSE,na.strings = "EMPTY")
  > activities <- as.numeric(Y_train[1:7352,1])
