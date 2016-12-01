@@ -4,31 +4,25 @@
  >Id of the subjects participated in the excersise  
  range: 1..30
  
+**_activity_     |    18   **       
+>Activities the person/subject performed wearing a smartphone (Samsung Galaxy S II) on the waist
+ 1. WALKING
+ 2. WALKING_UPSTAIRS
+ 3. WALKING_DOWNSTAIRS
+ 4. SITTING
+ 5. STANDING
+ 6. LAYING
+
+**_activity_id_    |     1 **    
+>Id of the activity 
+range: 1..6
 
 
-**_subject_id_**  
- Size(no of characters)=2  
- Id of the subjects participated in the excersise  
- range: 1..30
- 
-**_activity_**         18          
-	Activities the person/subject performed wearing a smartphone (Samsung Galaxy S II) on the waist
-	1 WALKING
-	2 WALKING_UPSTAIRS
-	3 WALKING_DOWNSTAIRS
-	4 SITTING
-	5 STANDING
-	6 LAYING
+>'t' in the below variables denote time
 
-activity_id         1          
-	Id of the activity 
-	range: 1..6
-
-	          
-tBodyAcc-mean()-X         6          
-	't' to denote time
-	Mean of the acceleration signal of the body in X- direction
-	range: 0.2..0.31 : Integer weight of housing unit
+**_tBodyAcc-mean()-X_     |    6    **      
+>Mean of the acceleration signal of the body in X- direction
+range: 0.2..0.31 
 
 tBodyAcc-mean()-Y         7          
 	Mean of the acceleration signal of the body in Y- direction
